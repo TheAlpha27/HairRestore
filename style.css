@@ -99,7 +99,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 1rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 .card{
     width: 13rem;
@@ -108,7 +108,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0.5rem;
+    margin-top: 3rem;
 }
 .card p{
     margin: 1.2rem;
@@ -122,4 +122,41 @@
     font-size: 1.3rem;
     top: -2.5rem;
     color: #305942;
+}
+.sec-2{
+    background-color: #AFBD7782;
+    padding:3rem 0 3rem 0;
+    color: #305942;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.section-2 h1{
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.sec-2 .container-fluid{
+    border: 1px solid #707070;
+    display: flex;
+    margin-bottom: 0.4rem;
+}
+.sec-2 .container-fluid .container{
+    /* border: 2px solid black; */
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec-2 .container-fluid h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.sec-2 svg{
+    margin-right: 1rem;
 }
